@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #2d2d2d;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+/* TODO: nav masih numpuk ke kiri, bikin rapi horizontal & sejajar pakai display: flex + gap */
+
+
+.hero {
+  background-color: #6c63ff;
+  color: white;
+  padding:  20px;
+  text-align: center;
+}
+
+.foto {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  margin: 0 auto 12px auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* TODO: foto masih kotak, bikin jadi lingkaran pakai border-radius: 50% */
+
+
+.hero h1 {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.container {
+  padding: 24px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* TODO: container masih mepet ke pinggir layar (full width), kasih max-width (misal 700px) + margin: 0 auto biar ketengah dan nggak terlalu lebar di layar besar */
+
+
+section {
+  margin-bottom: 28px;
+}
+
+section h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+#skill ul {
+  padding-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+#skill li {
+  gap: 20px;
+  list-style: none;
+  background-color: #b0b0b0;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+/* TODO: list skill masih pake bullet standar & numpuk ke bawah, ubah jadi sejajar horizontal (flex) tanpa bullet (list-style: none) dan bikin tiap li kayak "pill" (background-color, padding, border-radius) */
+
+
+.kartu-proyek {
+  background-color: white;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+/* TODO: kartu proyek masih polos rata sama background, kasih border atau box-shadow tipis + border-radius biar keliatan "kartu" beneran */
+
+
+footer {
+  background-color: #2d2d2d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #ccc;
+}
+
+/* TODO: kasih efek footer a:hover biar warna berubah pas mouse diarahin */
